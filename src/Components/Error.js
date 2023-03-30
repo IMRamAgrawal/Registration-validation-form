@@ -3,9 +3,9 @@ import {Link} from "react-router-dom";
 function Error() {
   return (
     <>
-    <div>404 Error</div>
+    <div className='Error'>404 Error
   
-    <Link to="/"><button >redirect to Register form</button></Link><br/>
+    <Link to="/"><button>redirect to Register form</button></Link><br/></div>
     </>
   )
 }
